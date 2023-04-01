@@ -186,19 +186,19 @@ a {
     .m2 {
         width: 100%;
     }
-    .m3 .pictures {
+    .m3  {
         display: grid;
         grid-gap: 3em;
         justify-content: center;
         text-align: center;
         margin: 10px 0;
     }
-   .m3 .logo2 {
+   /*.m3 .logo2 {
         display: grid;
         grid-gap: 4em;
         justify-content: center;
         align-items: center;
-    }
+    }*/
     .m4 {
         width: 84%;
     }
