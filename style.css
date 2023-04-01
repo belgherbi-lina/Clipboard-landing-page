@@ -200,13 +200,11 @@ a {
         width: 25%;
         margin: 0 50px;
     }
-    .m3 .logo2 {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+   .m3 .logo2 {
+        display: grid;
+        grid-gap: 4em;
+        justify-content: center;
         align-items: center;
-        padding: 0 100px ;
-        margin: 50px 30px ;
     }
     .m4 {
         width: 84%;
