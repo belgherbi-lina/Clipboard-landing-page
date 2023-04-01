@@ -175,6 +175,7 @@ a {
         display: flex;
         justify-content: center ;
         align-items: center;
+        width:400px;
     }
     .btn1 {
         margin: 10px 0;
@@ -185,7 +186,8 @@ a {
     .m1 {
         width:100%;
         display: grid;
-        grid-gap: 3em;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
     }
@@ -201,7 +203,8 @@ a {
     }
     m3 .logo2 {
         display: grid;
-        grid-gap: 3em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
         justify-content: center;
         align-items: center;
     }
