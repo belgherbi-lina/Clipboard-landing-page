@@ -176,8 +176,16 @@ a {
         justify-content: center ;
         align-items: center;
     }
+    .btn1 {
+        margin: 10px 0;
+    }
+    .btn2 {
+        margin: 10px 0;
+    }
     .m1 {
+        width:100%;
         display: grid;
+        grid-gap: 3em;
         justify-content: center;
         align-items: center;
     }
@@ -189,11 +197,11 @@ a {
         grid-gap: 3em;
         justify-content: center;
         text-align: center;
-        margin: 10px 0;
+        margin: 50px 0;
     }
     m3 .logo2 {
         display: grid;
-        grid-gap: 4em;
+        grid-gap: 3em;
         justify-content: center;
         align-items: center;
     }
