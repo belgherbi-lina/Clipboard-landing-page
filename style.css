@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    /*fonts*/
+    --font-family: 'Bai Jamjuree' , sans-serif ;
+    --font-size: 18px ;
+    --font-weight-normal : 400 ;
+    --font-weight-bold : 600 ;
+    /*colors*/
+    --Strong-Cyan:  hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+/*create header */
+header {
+    background-image: url(images/bg-header-desktop.png);
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    background-size:cover;
+}
+/* c logo of header */
+header .logo1 {
+    width: 80px;
+    height: 80px;
+    margin: 10px 70px;
+    margin-top: 10%;
+}
+.main {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+h1,h2 {
+    padding: 15px 0;
+    font-weight: var(--font-weight-bold);
+    color:var(--Dark-Grayish-Blue);
+}
+p {
+    font-weight: var(--font-weight-normal);
+    color: var(--Grayish-Blue);
+    height: 100px;
+}
+.main p{
+    padding-left: 22%;
+    width: 79%;
+}
+/*button Download for IOS*/
+.btn1 {
+    background-color: var(--Strong-Cyan);
+    font-weight: var(--font-weight-bold);
+    padding: 12px 30px;
+    color: #fff;
+    border: none;
+    margin: 35px 10px;
+    margin-top: 1px ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--Strong-Cyan);
+}
+/* button Download for Mac */
+.btn2 {
+    background-color: var(--Light-Blue);
+    font-weight: var(--font-weight-bold);
+    padding: 12px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--Light-Blue);
+}
+header .main- {
+    text-align: center;
+    width: 58%;
+    margin: 0 auto;
+}
+.m1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 45px 0 ;
+}
+.m1 img {
+    margin: 0 0;
+    height: 100%;
+    width: 95%;
+}
+.m1 .texts {
+    width: 65%;
+    margin-left: 10%;
+}
+.m2 {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.m2 img {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.m2 p {
+    padding-left: 15%;
+    width: 90%;
+}
+.m2 div p {
+    width: 85%;
+}
+.m3 .pictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+}
+.m3 .pictures div {
+    width: 40%;
+}
+.m3 .pictures div a {
+    width: 25%;
+    margin: 0 100px;
+}
+.m3 .logo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px ;
+    margin: 50px 30px ;
+}
+.m4 {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+footer {
+    margin: 90px 0;
+    height: 0;
+}
+footer .logo {
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    align-items: center;
+}
+.logo ul {
+    list-style: none;
+    width: 400px;
+}
+ul li {
+    display: inline-block;
+    margin: 5px 20px ;
+}
+a {
+    text-decoration: none;
+    color: var(--Grayish-Blue);
+}
+.c-logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px 100px;
+}
+
+@media (max-width : 375px){
+    body {
+        margin: 8px;
+    }
+    header {
+        background-color: url(images/bg-header-mobile.png);
+        background-size: cover;
+        width: 1px;
+    }
+    .main {
+        width: 10%;
+    }
+    .main- {
+        width: 10%;
+    }
+    .m1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 10px;
+    }
+    .m2 {
+        width: 100%;
+    }
+    .m3 .pictures{
+        display: grid;
+        width:10%;
+    }
+    .m3 .pictures div {
+        width: 85%;
+    }
+    .m3 .logo2 {
+        display: grid;
+        grid-gap: 4em;
+        justify-content: center;
+        align-items: center;
+    }
+    .m4 {
+        width: 84%;
+    }
+    .btn {
+        margin: 10px 0;
+    }
+    footer .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    ul li {
+        display: grid;
+        margin: 20px 0;
+    }
+    .social-icons a {
+        margin: 10px 0;
+    }
+}
