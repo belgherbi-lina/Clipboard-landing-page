@@ -196,18 +196,25 @@ a {
     .m2 {
         width: 100%;
     }
-    .m3 .pictures{
-        display: grid;
-        width:10%;
+    .m3 .pictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
     }
     .m3 .pictures div {
-        width: 85%;
+        width: 40%;
+    }
+    .m3 .pictures div a {
+        width: 25%;
+        margin: 0 100px;
     }
     .m3 .logo2 {
-        display: grid;
-        grid-gap: 4em;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 100px ;
+        margin: 50px 30px ;
     }
     .m4 {
         width: 84%;
