@@ -187,18 +187,11 @@ a {
         width: 100%;
     }
     .m3 .pictures {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-gap: 3em;
         justify-content: center;
         text-align: center;
-        margin: 100px 0;
-    }
-    .m3 .pictures div {
-        width: 40%;
-    }
-    .m3 .pictures div a {
-        width: 25%;
-        margin: 0 50px;
+        margin: 10px 0;
     }
    .m3 .logo2 {
         display: grid;
