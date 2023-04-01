@@ -168,7 +168,7 @@ a {
     margin: 10px 100px;
 }
 
-@media (max-width : 375px){
+@media (max-width : 500px){
     header {
         background-color: url(images/bg-header-mobile.png);
         background-size: cover;
