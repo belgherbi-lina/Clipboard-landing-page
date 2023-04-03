@@ -186,20 +186,20 @@ a {
         padding:10px 10px;
     }
     .btn1 {
-        margin: 40px 20px;
+        margin: 50px 10px;
     }
     .btn2 {
-        margin: 40px 20px;
+        margin: 20px 20px;
     }
     .m1 {
         width:100%;
         display: grid;
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
     }
-    .m1 .text {
+    .m1 .texts {
         text-align: center;
         width: 65%;
         margin-left: 70px;
@@ -211,6 +211,11 @@ a {
     }
     .m2 {
         width: 100%;
+    }
+    .m2 img {
+        width: 75%;
+        height: 100%;
+        padding-top:100px;
     }
     .m3 .pictures  {
         display: grid;
@@ -243,7 +248,7 @@ a {
         margin: 20px 0;
     }
     .social-icons a {
-        padding-top: 100px;
-        
+        padding-left: 20px;
+        margin: 10px 10px;
     }
 }
