@@ -182,7 +182,7 @@ a {
         width:400px;
     }
     p,h1,h2 {
-        height: 200px;
+        height: 100px;
     }
     .btn1 {
         margin: 40px 20px;
@@ -203,8 +203,8 @@ a {
         margin-left: 100px;
     }
     .m1 .img {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         padding-left: 30px;
     }
     .m2 {
