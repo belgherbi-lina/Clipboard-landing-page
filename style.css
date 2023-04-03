@@ -183,6 +183,7 @@ a {
     }
     p,h1,h2 {
         height: 100px;
+        padding:10px 10px;
     }
     .btn1 {
         margin: 40px 20px;
@@ -199,13 +200,14 @@ a {
         align-items: center;
     }
     .m1 .text {
+        text-align: center;
         width: 65%;
-        margin-left: 100px;
+        margin-left: 70px;
     }
-    .m1 .img {
-        height: 300px;
-        width: 300px;
-        padding-left: 30px;
+    .m1 img {
+          height: 400px;
+          width: 400px;
+          padding: 10px 20px;
     }
     .m2 {
         width: 100%;
